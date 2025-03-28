@@ -1,8 +1,8 @@
 import os
 import hashlib
-from typing import List, Optional, Union, Any
-from PIL import Image
 import natsort
+from PIL import Image
+from typing import List, Optional, Union, Any
 
 class Robohash:
     """
