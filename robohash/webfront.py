@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 
 # Find details about this project at https://github.com/e1ven/robohash
-import tornado.httpserver
-import tornado.ioloop
-import tornado.options
-import tornado.web
-import socket
 import os
-import hashlib
-import random
-from robohash import Robohash
 import re
 import io
+import socket
+import random
 import base64
+import hashlib
+import tornado.web
+import tornado.ioloop
+import tornado.options
+import tornado.httpserver
+from robohash import Robohash
 
 import urllib.request
 import urllib.parse

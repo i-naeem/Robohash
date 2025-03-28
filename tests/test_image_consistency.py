@@ -6,10 +6,10 @@ expected reference images for specific inputs.
 """
 
 import os
-import unittest
-from PIL import Image, ImageChops
 import io
+import unittest
 from robohash import Robohash
+from PIL import Image, ImageChops
 
 class TestRobohashConsistency(unittest.TestCase):
     def setUp(self):

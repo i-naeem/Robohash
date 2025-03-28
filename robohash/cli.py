@@ -1,6 +1,5 @@
-import argparse
-import io
 import sys
+import argparse
 from typing import NoReturn
 from robohash import Robohash
 
